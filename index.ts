@@ -145,13 +145,13 @@ async function CallLLM(userId: string, input: string): Promise<string> {
                     "should_store_message": true
                 },
                 "AstraVectorStoreComponent-vsEJl": {
-                    "api_endpoint": "ASTRA_ENDPOINT_API",
+                    "api_endpoint": "https://8bb671cd-5109-425e-9dbf-c9cbe6d3dc8e-us-east1.apps.astra.datastax.com",
                     "batch_size": null,
                     "bulk_delete_concurrency": null,
                     "bulk_insert_batch_concurrency": null,
                     "bulk_insert_overwrite_concurrency": null,
                     "collection_indexing_policy": "",
-                    "collection_name": "ASTRA_COLLECTION",
+                    "collection_name": "bearattacks2",
                     "metadata_indexing_exclude": "",
                     "metadata_indexing_include": "",
                     "metric": "",
@@ -195,7 +195,7 @@ async function CallLLM(userId: string, input: string): Promise<string> {
                     "model": "text-embedding-ada-002",
                     "model_kwargs": {},
                     "openai_api_base": "",
-                    "openai_api_key": "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",
+                    "openai_api_key": "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",
                     "openai_api_type": "",
                     "openai_api_version": "",
                     "openai_organization": "",
@@ -207,7 +207,7 @@ async function CallLLM(userId: string, input: string): Promise<string> {
                     "tiktoken_model_name": ""
                 },
                 "OpenAIModel-t5IYV": {
-                    "api_key": "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",
+                    "api_key": "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",
                     "input_value": "",
                     "json_mode": false,
                     "max_tokens": null,
