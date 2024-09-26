@@ -8,6 +8,7 @@
     "dependencies": {
         "@line/bot-sdk": "^9.4.0",
         "@prisma/client": "^5.19.1",
+        "bun": "^1.1.29",
         "dotenv": "^16.4.5",
         "express": "^4.21.0",
         "localtunnel": "^2.0.2",
