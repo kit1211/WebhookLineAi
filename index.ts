@@ -195,7 +195,7 @@ async function CallLLM(userId: string, input: string): Promise<string> {
                     "model": "text-embedding-ada-002",
                     "model_kwargs": {},
                     "openai_api_base": "",
-                    "openai_api_key": "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",
+                    "openai_api_key": "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",
                     "openai_api_type": "",
                     "openai_api_version": "",
                     "openai_organization": "",
@@ -207,7 +207,7 @@ async function CallLLM(userId: string, input: string): Promise<string> {
                     "tiktoken_model_name": ""
                 },
                 "OpenAIModel-t5IYV": {
-                    "api_key": "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",
+                    "api_key": "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",
                     "input_value": "",
                     "json_mode": false,
                     "max_tokens": null,
