@@ -195,7 +195,7 @@ async function CallLLM(userId: string, input: string): Promise<string> {
                     "model": "text-embedding-ada-002",
                     "model_kwargs": {},
                     "openai_api_base": "",
-                    "openai_api_key": "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",
+                    "openai_api_key": process.env.OPENAI_API_KEY,
                     "openai_api_type": "",
                     "openai_api_version": "",
                     "openai_organization": "",
@@ -207,7 +207,7 @@ async function CallLLM(userId: string, input: string): Promise<string> {
                     "tiktoken_model_name": ""
                 },
                 "OpenAIModel-t5IYV": {
-                    "api_key": "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",
+                    "api_key": process.env.OPENAI_API_KEY,
                     "input_value": "",
                     "json_mode": false,
                     "max_tokens": null,
